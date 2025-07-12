@@ -2,6 +2,8 @@
 
 # Minimum Number of Vertices to Reach All Nodes
 
+from typing import List
+
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
         indegree = [0] * n

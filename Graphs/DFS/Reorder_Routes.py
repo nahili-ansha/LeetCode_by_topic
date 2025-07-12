@@ -2,6 +2,9 @@
 
 # Reorder Routes to Make All Paths Lead to the City Zero
 
+from typing import List
+from collections import defaultdict
+
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:
         roads = set()

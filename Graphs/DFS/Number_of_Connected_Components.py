@@ -2,6 +2,9 @@
 
 # Number of Connected Components in an Undirected Graph
 
+from typing import List
+from collections import defaultdict
+
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
         def dfs(node):

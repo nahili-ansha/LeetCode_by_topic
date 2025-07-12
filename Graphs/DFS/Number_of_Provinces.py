@@ -2,6 +2,7 @@
 
 # Number of Provinces
 
+from typing import List
 from collections import defaultdict
 
 class Solution:
