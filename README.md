@@ -6,12 +6,18 @@ This repository contains my personal solutions to problems from [LeetCode](https
 
 ##  Topics Covered
 
--  [Arrays](./arrays)
--  [Strings](./strings)
--  [Dynamic Programming](./dynamic-programming)
--  [Trees](./trees)
--  [Graphs](./graphs)
-- More coming soon...
+-  [Arrays & Strings]
+-  [Hashing]
+-  [LinkedLists]
+-  [Stacks]
+-  [Queues]
+-  [Trees]
+-  [Graphs]
+-  [Heaps]
+-  [Greedy]
+-  [Binary Search]
+-  [Backtracking]
+-  [Dynamic Programming]
 
 ---
 
