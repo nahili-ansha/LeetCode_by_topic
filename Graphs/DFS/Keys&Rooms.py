@@ -15,3 +15,9 @@ class Solution:
         seen = {0}
         dfs(0)
         return len(seen) == len(rooms)
+    
+# Input: rooms = [[1],[2],[3],[]]
+# Output: true
+
+# Input: rooms = [[1,3],[3,0,1],[2],[0]]
+# Output: false

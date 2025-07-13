@@ -11,3 +11,6 @@ class Solution:
             indegree[y] += 1
         
         return [node for node in range(n) if indegree[node] == 0]
+    
+# Input: n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]
+# Output: [0,2,3]

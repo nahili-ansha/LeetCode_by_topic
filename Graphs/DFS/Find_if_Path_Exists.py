@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+# https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 
 # Find if Path Exists in Graph
 from typing import List
@@ -22,4 +22,10 @@ class Solution:
         if destination in seen:
             return True
         else:
-            return False        
+            return False 
+               
+# Input: n = 3, edges = [[0,1],[1,2],[2,0]], source = 0, destination = 2
+# Output: true
+
+# Input: n = 6, edges = [[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
+# Output: false
